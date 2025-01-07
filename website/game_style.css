@@ -1,0 +1,17 @@
+*{
+    background-color: black;
+}
+
+.card{
+    width: 40%;
+    border-radius: 3rem;
+    box-shadow: 0px 0px 10px darkgray,
+                0px 0px 20px darkgray,
+                0px 0px 30px darkgray;
+    transition: 0.33s;
+
+}
+
+.card:hover{
+    width: 41%;
+}
