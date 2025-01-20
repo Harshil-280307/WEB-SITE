@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>SUDOKU</title>
+        <link rel="stylesheet" href="sudoku_2.css">
+</head>
+
+<body>
+        <main>
+                <div class="Main">
+                        <h1 style="display: flex; justify-content: center; align-items: center;">SUDOKU</h1>
+                        <div class="start">
+                                <button id="startButton">start game</button>
+                        </div>
+                        <div>
+                                <div class="head">
+                                        <div id="Mainbox" class="Mainbox">
+                                                <div class="box" id="1box1"></div>
+                                                <div class="box" id="1box2"></div>
+                                                <div class="box" id="1box3"></div>
+                                                <div class="box" id="1box4"></div>
+                                                <div class="box" id="1box5"></div>
+                                                <div class="box" id="1box6"></div>
+                                                <div class="box" id="1box7"></div>
+                                                <div class="box" id="1box8"></div>
+                                                <div class="box" id="1box9"></div>
+                                        </div>
+
+
+
+                                        <div id="Mainbox" class="Mainbox">
+                                                <div class="box" id="2box1"></div>
+                                                <div class="box" id="2box2"></div>
+                                                <div class="box" id="2box3"></div>
+                                                <div class="box" id="2box4"></div>
+                                                <div class="box" id="2box5"></div>
+                                                <div class="box" id="2box6"></div>
+                                                <div class="box" id="2box7"></div>
+                                                <div class="box" id="2box8"></div>
+                                                <div class="box" id="2box9"></div>
+                                        </div>
+
+
+                                        <div id="Mainbox" class="Mainbox">
+                                                <div class="box" id="3box1"></div>
+                                                <div class="box" id="3box2"></div>
+                                                <div class="box" id="3box3"></div>
+                                                <div class="box" id="3box4"></div>
+                                                <div class="box" id="3box5"></div>
+                                                <div class="box" id="3box6"></div>
+                                                <div class="box" id="3box7"></div>
+                                                <div class="box" id="3box8"></div>
+                                                <div class="box" id="3box9"></div>
+                                        </div>
+
+                                        <div id="Mainbox" class="Mainbox">
+                                                <div class="box" id="4box1"></div>
+                                                <div class="box" id="4box2"></div>
+                                                <div class="box" id="4box3"></div>
+                                                <div class="box" id="4box4"></div>
+                                                <div class="box" id="4box5"></div>
+                                                <div class="box" id="4box6"></div>
+                                                <div class="box" id="4box7"></div>
+                                                <div class="box" id="4box8"></div>
+                                                <div class="box" id="4box9"></div>
+                                        </div>
+
+                                        <div id="Mainbox" class="Mainbox">
+                                                <div class="box" id="5box1"></div>
+                                                <div class="box" id="5box2"></div>
+                                                <div class="box" id="5box3"></div>
+                                                <div class="box" id="5box4"></div>
+                                                <div class="box" id="5box5"></div>
+                                                <div class="box" id="5box6"></div>
+                                                <div class="box" id="5box7"></div>
+                                                <div class="box" id="5box8"></div>
+                                                <div class="box" id="5box9"></div>
+                                        </div>
+                                        <div id="Mainbox" class="Mainbox">
+                                                <div class="box" id="6box1"></div>
+                                                <div class="box" id="6box2"></div>
+                                                <div class="box" id="6box3"></div>
+                                                <div class="box" id="6box4"></div>
+                                                <div class="box" id="6box5"></div>
+                                                <div class="box" id="6box6"></div>
+                                                <div class="box" id="6box7"></div>
+                                                <div class="box" id="6box8"></div>
+                                                <div class="box" id="6box9"></div>
+                                        </div>
+
+                                        <div id="Mainbox" class="Mainbox">
+                                                <div class="box" id="7box1"></div>
+                                                <div class="box" id="7box2"></div>
+                                                <div class="box" id="7box3"></div>
+                                                <div class="box" id="7box4"></div>
+                                                <div class="box" id="7box5"></div>
+                                                <div class="box" id="7box6"></div>
+                                                <div class="box" id="7box7"></div>
+                                                <div class="box" id="7box8"></div>
+                                                <div class="box" id="7box9"></div>
+                                        </div>
+
+                                        <div id="Mainbox" class="Mainbox">
+                                                <div class="box" id="8box1"></div>
+                                                <div class="box" id="8box2"></div>
+                                                <div class="box" id="8box3"></div>
+                                                <div class="box" id="8box4"></div>
+                                                <div class="box" id="8box5"></div>
+                                                <div class="box" id="8box6"></div>
+                                                <div class="box" id="8box7"></div>
+                                                <div class="box" id="8box8"></div>
+                                                <div class="box" id="8box9"></div>
+                                        </div>
+
+                                        <div id="Mainbox" class="Mainbox">
+                                                <div class="box" id="9box1"></div>
+                                                <div class="box" id="9box2"></div>
+                                                <div class="box" id="9box3"></div>
+                                                <div class="box" id="9box4"></div>
+                                                <div class="box" id="9box5"></div>
+                                                <div class="box" id="9box6"></div>
+                                                <div class="box" id="9box7"></div>
+                                                <div class="box" id="9box8"></div>
+                                                <div class="box" id="9box9"></div>
+                                        </div>
+                                </div>
+                        </div>
+                        <div class="button">
+                                <button class="btn" id="btn1">1</button>
+                                <button class="btn" id="btn2">2</button>
+                                <button class="btn" id="btn3">3</button>
+                                <button class="btn" id="btn4">4</button>
+                                <button class="btn" id="btn5">5</button>
+                                <button class="btn" id="btn6">6</button>
+                                <button class="btn" id="btn7">7</button>
+                                <button class="btn" id="btn8">8</button>
+                                <button class="btn" id="btn9">9</button>
+                        </div>
+
+                </div>
+        </main>
+        
+
+        <script src="sudoku_2.js"></script>
+</body>
+
+</html>
