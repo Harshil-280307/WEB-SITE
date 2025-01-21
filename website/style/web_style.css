@@ -1,1 +1,58 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
 
+body{
+    background-color: #52796f;
+}
+
+h1{
+    padding-bottom: 2%;
+    padding-top: 1%;
+    text-align: center;
+    color: solid black;
+}
+
+.Nav{
+    color: #cad2c5;
+    text-decoration-line: none;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    height: 40px;
+    background-color: #2f3e46;
+    justify-content: space-around;
+    color: pink;   
+}
+
+.part{
+    display: flex;
+}
+
+
+
+.intro{
+    font-size: 40px;
+    padding-left: 10%;
+    padding-top: 6%;
+    width: 50%;
+}
+
+.group_of_card{
+    display: flex;
+    flex-wrap:wrap;
+    height: 350px;
+    justify-content:space-around;
+   
+}
+
+.card{
+    width: 25%;
+    height: 150px;
+    color: #cad2c5;
+    border: 2px solid black;
+    
+}
