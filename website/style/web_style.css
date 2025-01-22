@@ -9,7 +9,7 @@ body{
 
 /* for special h1 tag the main website hadding */
 
-h1{
+.h1{
     padding-bottom: 2%;
     padding-top: 1%;
     text-align: center;
@@ -40,6 +40,12 @@ nav{
     display: flex;
 }
 
+/*the main left side contant*/
+
+.left-side{
+
+}
+
 /* a main left side div of start page main*/
 
 .intro{
@@ -49,22 +55,71 @@ nav{
     width: 50%;
 }
 
+/* the main right side contant*/
+
+.right-side{
+    
+}
+
+/*for the image on right side on first page*/
+
+.rightImg{
+
+}
+
+
+/*card heading a Key Feture*/
+
+.keyFeture{
+    text-align: center;
+    padding-bottom: 2%;
+    color:white;
+    text-shadow: 0px 0px 10px black,
+                 0px 0px 20px black;
+    letter-spacing: 10px;
+}
+
+/*main center to make center group_of_cards*/
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+}
+
 /*second page for group of cards*/
 
 .group_of_card{
     display: flex;
     flex-wrap:wrap;
-    height: 350px;
-    justify-content:space-around;
-   
+    height: 640px;
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 10px;
+    width: 80%;
+    padding-left: 90px;
 }
 
 /* for each card in side the group of cards*/
 
 .card{
-    width: 25%;
-    height: 150px;
+    box-shadow: 0px 0px 10px gray,
+                0px 0px 20px gray;
+    
+    border-radius: 1rem;
+    padding: 10px;
+    width: 60%;
+    height: 270px;
     color: #cad2c5;
     border: 2px solid black;
-    
+}
+
+/* for all card image*/
+
+.cardImg{
+    width: 100%;
+    border-radius: 1rem;
 }
