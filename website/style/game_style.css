@@ -14,6 +14,12 @@ body {
     min-height: 100vh;
 }
 
+.cardOfGame{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
 
 .gamesCards {
     display: flex;
