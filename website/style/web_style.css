@@ -117,6 +117,14 @@ nav{
     border: 2px solid black;
 }
 
+/*for all heading of cards*/
+
+.cardHeading{
+  text-align: center;
+  color: black;
+}
+
+
 /* for all card image*/
 
 .cardImg{
