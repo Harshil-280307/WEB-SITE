@@ -134,6 +134,42 @@ body {
 }
 
 
+footer{
+    margin-top: 10%;
+    align-items: center;
+}
+
+.footerInfo{
+    background-color: rgba(0, 0, 0, 0.4);
+    height: 250px;
+    color: white;
+}
+
+.footer-contant{
+    margin-top: 15%;
+    margin-left: 10%;
+}
+
+.footer-h3{
+    margin-bottom: 1%;
+}
+
+.footer-link{
+    margin-top: 2%;
+    margin-left: 15%;
+    margin-bottom: 2%;
+}
+
+.foo-link{
+    text-decoration: none;
+    color: blue;
+
+}
+
+.footer-bottom{
+    text-align: center;
+}
+
 /* Responsive design */
 @media (max-width: 768px) {
     .card {
