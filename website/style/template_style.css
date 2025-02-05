@@ -1,3 +1,64 @@
 body{
-    background-image: url(../images/abstract.jpg);
+    background-image: url(../images/5079835.jpg);
+    padding: 0px;
+    margin: 0px;
 }
+
+.mainHeading{
+    display: flex;
+    justify-content: center;
+}
+
+.heading{
+    color: white;
+    text-align: center;
+    text-shadow: -2px 2px 1px lightcoral;
+    background-image: url(../images/3334896.jpg);
+    border-radius: 2rem;
+    width: fit-content;
+    padding:1.5%;
+    letter-spacing: 8px;
+}
+
+.basicInfoDiv{
+    
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.basicinfo{
+    text-align: center;
+    align-content: center;
+    width: 88%;
+    color: white;
+    font-size: 20px;
+    text-shadow: 3px 2px 1px blue;
+}
+
+.contant{
+    display: flex;
+}
+
+.card{
+    background-color: rgba(0, 0, 0, 0.5);
+    width: fit-content;
+    padding: 3%;
+    border-radius: 2rem;
+}
+
+.cardImg{
+    border-radius: 2rem;
+}
+
+
+.cardHeading{
+    color: white;
+    text-align: center;
+}
+
+.cardInfo{
+    color: white;
+    text-align: center;
+}
+
