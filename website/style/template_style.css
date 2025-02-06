@@ -65,3 +65,26 @@ body{
     text-align: center;
 }
 
+
+.footer-contant{
+    color: white;
+}
+
+.footer{
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 2%;
+}
+
+.footer-middle{
+    margin-left: 5%;
+    color: white;
+}
+
+.footer-middle a{
+    color: blue;
+}
+
+.footer-bottom{
+    text-align: center;
+    color: white;
+}
