@@ -10,10 +10,14 @@ h1,h2{
     color: #F2E9E4;
 }
 
+.msg{
+    color: white;
+}
+
 .count{
     display: flex;
     justify-content: center;
-    gap: 50px;
+    gap: 40px;
     
 }
 
@@ -60,5 +64,13 @@ img:active{
    align-items: center;
 }
 .yourScore,.compScore{
-    font-size: 50px;
+    font-size: 40px;    
+}
+
+#start{
+    background-color: wheat;
+    color: black;
+    border-radius: 1rem;
+    width: 90px;
+    height: 30px;
 }

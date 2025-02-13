@@ -3,6 +3,8 @@ let turnO = true; // playerX ,  payer O
 let count = 0; // to track draw
 let mg = document.querySelector(".winn");
 
+
+
 let wipartterns = [
     [0, 1, 2],
     [0, 3, 6],
