@@ -1,0 +1,269 @@
+
+body{
+    /* background-image: url(bgbg.png); */
+    background-repeat: no-repeat;
+
+
+}
+
+/*style for game class inside main tag*/
+.game{    
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+} 
+
+/*a contant style for all 6 image seting*/
+ .contant{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 600px;
+}
+
+/**this all 6 same name class for set image position*/
+.bothImg1{
+    margin-left:10%;
+    position: relative;
+    width: 20%;
+}
+#dirt1 {
+    position: absolute;
+    margin-top:20% ;
+    width: 100%;
+}
+#mole1{
+    position: absolute;
+    width: 150px;
+    left: 25%;
+}
+
+
+.bothImg2{
+    margin-left:10%;
+    position: relative;
+    width: 20%;
+}
+#dirt2 {
+    position: absolute;
+    margin-top:20% ;
+    width: 100%;
+}
+#mole2{
+    position: absolute;
+    width: 150px;
+    left: 25%;
+}
+
+
+.bothImg3{
+    margin-left:10%;
+    position: relative;
+    width: 20%;
+}
+#dirt3 {
+    position: absolute;
+    margin-top:20% ;
+    width: 100%;
+}
+#mole3{
+    position: absolute;
+    width: 150px;
+    left: 25%;
+}
+
+
+.bothImg4{
+    margin-left:10%;
+    position: relative;
+    width: 20%;
+}
+#dirt4 {
+    position: absolute;
+    margin-top:20% ;
+    width: 100%;
+}
+#mole4{
+    position: absolute;
+    width: 150px;
+    left: 25%;
+}
+
+
+.bothImg5{
+    margin-left:10%;
+    position: relative;
+    width: 20%;
+}
+#dirt5 {
+    position: absolute;
+    margin-top:20% ;
+    width: 100%;
+}
+#mole5{
+    position: absolute;
+    width: 150px;
+    left: 25%;
+}
+
+
+.bothImg6{
+    margin-left:10%;
+    position: relative;
+    width: 20%;
+}
+#dirt6 {
+    position: absolute;
+    margin-top:20% ;
+    width: 100%;
+}
+#mole6{
+    position: absolute;
+    width: 150px;
+    left: 25%;
+}
+
+.bothImg7{
+    margin-left:10%;
+    position: relative;
+    width: 20%;
+}
+#dirt7 {
+    position: absolute;
+    margin-top:20% ;
+    width: 100%;
+}
+#mole7{
+    position: absolute;
+    width: 150px;
+    left: 25%;
+}
+
+.bothImg8{
+    margin-left:10%;
+    position: relative;
+    width: 20%;
+}
+#dirt8 {
+    position: absolute;
+    margin-top:20% ;
+    width: 100%;
+}
+#mole8{
+    position: absolute;
+    width: 150px;
+    left: 25%;
+}
+
+.bothImg9{
+    margin-left:10%;
+    position: relative;
+    width: 20%;
+}
+#dirt9 {
+    position: absolute;
+    margin-top:20% ;
+    width: 100%;
+}
+#mole9{
+    position: absolute;
+    width: 150px;
+    left: 25%;
+}
+
+
+/*for style on the message box*/
+.for-massage{
+    display: flex;
+    justify-content: center;
+}
+.game-win{
+    text-align: center;
+    color: white;
+    background-color: black;
+    border-radius: 2rem;
+    margin: 1%;
+    margin-top:2% ;
+    padding: 1%;
+}
+
+/*for deficulty menu*/
+
+.deficulty-menu{
+    display: flex;
+    justify-content: center;
+}
+
+#normal{
+    background-color: blue;
+    color: black;
+    margin-left: 2%;
+    width: 5%;
+    height: 60px;
+    border-radius: 1rem;
+    font-size: 150%
+}
+#easy{
+    background-color: green;
+    color: black;
+    border-radius: 1rem;
+    width: 5%;
+    height: 60px;
+    font-size: 150%
+}
+#hard{
+    background-color: red;
+    color: black;
+    border-radius: 1rem;
+    margin-left: 2%;
+    width: 5%;
+    height: 60px;
+    font-size: 150%
+}
+
+
+/*for set style on the score bord*/
+.score-menu{
+    display: flex;
+    justify-content: center;
+}
+.score{
+    text-align: center;
+    color: white;
+    font-size: 180%;
+    background-color: black;
+    border-radius: 2rem;
+    padding: 1%;
+}
+
+
+/*for set style on the start menu*/
+.start-menu{
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.start{
+    text-align: center;
+    position: absolute;
+    color: red;
+    background-color: green;
+    border-radius: 2rem;
+    font-size: 60px;
+    padding: 1.5%;
+    height: fit-content;
+    cursor: pointer;
+}
+
+.Restart{
+    text-align: center;
+    position: absolute;
+    color: red;
+    background-color: green;
+    border-radius: 2rem;
+    font-size: 60px;
+    padding: 1.5%;
+    cursor: pointer;
+}

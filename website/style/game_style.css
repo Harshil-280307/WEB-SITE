@@ -117,7 +117,12 @@ body {
 }
 
 
+.aboutCarsHead{
+    color: lightcoral;
+}
+
 .topic{
+    text-align: left;
     margin-bottom: 3%;
     margin-top: 5%;
     word-spacing: 1px;
@@ -129,8 +134,13 @@ body {
 }
 
 .cardSubHeading{
-    margin-top: 2%;
-    margin-bottom: 2%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    color: lightcoral;
+}
+
+li{
+    font-size: smaller;
 }
 
 
