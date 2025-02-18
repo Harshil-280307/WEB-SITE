@@ -120,7 +120,7 @@ let countPlus = () =>{
         gameWin.innerText = "game complate";
         clearInterval(gameInterval);
     }
-    score.innerText = `score : ${count}`;
+    score.innerText = `score : ${count} / 20`;
 }
 
 //function for hidding the deficulty btn
