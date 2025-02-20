@@ -71,7 +71,7 @@ start.addEventListener("click", () => {
 // Hide all moles initially;
 moles.forEach(mole => mole.style.visibility = 'hidden');
 
-clearInterval(gameInterval);
+// clearInterval(gameInterval);
 
 gameInterval = setInterval(() => {
     // Hide all moles before showing a new one;
@@ -98,6 +98,7 @@ gameInterval = setInterval(() => {
 Restart.addEventListener("click", () => {
     clearInterval(gameInterval);
     Restart.style.visibility = 'hidden';
+    gameWin.innerText = "";
     showbtn();
     moles.forEach(mole => mole.style.visibility = 'hidden');
 })
@@ -112,15 +113,18 @@ moles.forEach((mole, index) => {
 });
 
 
+
 //a function for the make score bord working at rream time;
 let countPlus = () =>{
+    if(count <= 20){
     count++;
     //for stop game when game is complate
     if(count == 20){
-        gameWin.innerText = "game complate";
         clearInterval(gameInterval);
+        gameWin.innerText = "game complate";
     }
     score.innerText = `score : ${count} / 20`;
+    }
 }
 
 //function for hidding the deficulty btn

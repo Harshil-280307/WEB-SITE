@@ -26,6 +26,14 @@ body{
     height: 600px;
 }
 
+.game-win{
+    text-align: center;
+    font-size: 40px;
+    color: lightcoral;
+    background-color: black;
+    border-radius: 2rem;
+}
+
 /**this all 6 same name class for set image position*/
 .bothImg1{
     margin-left:10%;
