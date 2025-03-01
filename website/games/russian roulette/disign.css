@@ -1,0 +1,125 @@
+*{
+    margin: 0px;
+}
+
+body{
+    /* background-image: url(blade2.png); */
+    background-position: center ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+.info{
+    display: flex;
+    justify-content: space-between;
+}
+
+.game{
+    display: flex;
+    justify-content: center;
+}
+
+
+.life{
+    display: flex;
+    justify-content:space-between;
+}
+
+.comLife{
+    margin: 1%;
+    display: flex;
+}
+
+.comLife button{
+    margin-left: 1%;
+    width: 50px;
+    background-color: red;
+}
+
+.userLife{
+    margin: 1%;
+    display: flex;
+}
+
+.userLife button{
+    background-color: red;
+    margin-left: 1%;
+    width: 50px;
+    height: 17px;
+}
+
+
+.gun1, .gun2{
+    width: 30%;
+}
+
+.gun2{
+    transform: scaleX(-1);
+    float: right;
+}
+
+.DivGun1{
+    margin-top: 8%;
+    margin-right: 2%;
+}
+
+.DivGun2{
+    margin-top: 8%;
+    margin-left: 2%;
+}
+
+.roller img{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+}
+
+.sylinder{
+    margin-left: 20%;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.roller1{
+    margin-left: 24%;
+}
+
+.roller2{
+    margin-left: 21%;   
+}
+
+.roller1, .roller2{
+    margin-top: 20%;
+    transform: translate(-50%, -50%);
+    /* animation: rotateCircle 2s linear infinite; */
+}
+
+@keyframes rotateCircle {
+    from {
+        transform: translate(-50%, -50%) rotate(0deg);
+    }
+    to {
+        transform: translate(-50%, -50%) rotate(360deg);
+    }
+}
+
+
+@keyframes vibrate {
+    0% { transform: translate(0); }
+    25% { transform: translate(-2px, 2px); }
+    50% { transform: translate(2px, -2px); }
+    75% { transform: translate(-2px, -2px); }
+    100% { transform: translate(2px, 2px); }
+  }
+/*   
+main {
+    animation: vibrate 0.1s infinite linear;
+  } */
+  
+
+.msg{
+    font-size: 40px;
+    text-align: center;
+}
