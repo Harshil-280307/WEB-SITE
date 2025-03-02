@@ -41,8 +41,8 @@ let activeGun = false;
 
 let rollerSpine = () => {
     roller1.style.animation = "rotateCircle 2s linear infinite";
-    target = Math.floor(Math.random() * 2)
-    gunCell = Math.floor(Math.random() * 2)
+    target = Math.floor(Math.random() * 6)
+    gunCell = Math.floor(Math.random() * 6)
     setTimeout( () => {
         roller1.style.animation = "";
         activeGun = true;
@@ -54,8 +54,8 @@ roller1.addEventListener("click" , rollerSpine)
 
 let comp =  () => {
     roller2.style.animation = "rotateCircle 2s linear infinite";
-    target = Math.floor(Math.random() * 2)
-    gunCell = Math.floor(Math.random() * 2)
+    target = Math.floor(Math.random() * 6)
+    gunCell = Math.floor(Math.random() * 6)
     setTimeout( () => {
         roller1.addEventListener("click" , rollerSpine)
         roller2.style.animation = "";
