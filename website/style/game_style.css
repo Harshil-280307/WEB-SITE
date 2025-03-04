@@ -6,7 +6,7 @@
 
 
 body {
-/*     background-image: url(../images/3334896.jpg); */
+    background-image: url(../images/3334896.jpg); 
     font-family: Arial, sans-serif;
     background-color: #f0f0f0;
     justify-content: center;
@@ -71,7 +71,7 @@ body {
 
 
 .card {
-    background-color:rgba(0, 0, 0, 0.3);
+    background-color:rgba(0, 0, 0, 0.6);
     color: white;
     border-radius: 1.5rem;
     width: calc(50% - 1rem);
