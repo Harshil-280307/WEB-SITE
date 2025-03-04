@@ -6,10 +6,10 @@
 
 
 body {
-/*     background-image: url(../images/3334896.jpg);  */
+    background-image: url(../images/3334896.jpg); 
     background-color: black;
     font-family: Arial, sans-serif;
-/*     background-color: #f0f0f0; */
+    background-color: #f0f0f0;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
