@@ -71,7 +71,7 @@ body {
 
 
 .card {
-    background-color:rgba(0, 0, 0, 0.6);
+    background-color:rgba(0, 0, 0, 0.3);
     color: white;
     border-radius: 1.5rem;
     width: calc(50% - 1rem);
