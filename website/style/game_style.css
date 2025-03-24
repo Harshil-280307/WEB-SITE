@@ -31,6 +31,7 @@ body {
 /*     background-size :cover; */
     object-fit: cover;
 /*     object-fit:scale-down; */
+    background-size: auto;
     border-radius: 2rem;
     padding: 1.5%;
     width: fit-content;
