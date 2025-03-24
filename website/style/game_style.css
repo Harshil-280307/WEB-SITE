@@ -28,6 +28,7 @@ body {
     margin-top: 05%;
     letter-spacing: 5px;
     background-image: url(../images/featured-04.jpg);
+/*     background-size :cover; */
     object-fit:scale-down;
     border-radius: 2rem;
     padding: 1.5%;
