@@ -30,7 +30,7 @@ body {
     background-image: url(../images/featured-04.jpg);
 /*     background-size :cover; */
     object-fit: cover;
-    object-fit:scale-down;
+/*     object-fit:scale-down; */
     border-radius: 2rem;
     padding: 1.5%;
     width: fit-content;
