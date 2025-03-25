@@ -1,4 +1,4 @@
-document.body.style.zoom = "60%"; // Zoom in to 150%
+document.body.style.zoom = "70%"; // Zoom in to 150%
 
 //get element for score bord and start menu;
 let easy = document.getElementById("easy")
